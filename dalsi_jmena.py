@@ -1,0 +1,1 @@
+{'Anna': 19, 'Petra': 18, 'Tereza': 12, 'Lucie': 98, 'Marie': 82, 'Jana': 87, 'Eva': 19, 'Hana': 36, 'Klára': 15, 'Kateøina': 11}

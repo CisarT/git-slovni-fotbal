@@ -31,3 +31,10 @@ for klic, hodnota in osoba.items():
 # Použití funkce len() pro výpočet délky řetězce
 delka_jmena = len(jmeno)
 print("Počet písmen ve jméně je", delka_jmena)
+
+with open("dalsi_jmena.py", "r") as f:
+    obsah_souboru = f.read()
+
+dalsi_jmena = eval(obsah_souboru)
+
+print("jména v seznamu s roky osoby jsou:", dalsi_jmena)
