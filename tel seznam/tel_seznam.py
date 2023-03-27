@@ -16,7 +16,7 @@ def vypis_seznam():
 # Funkce pro přidání nového kontaktu
 def pridej_kontakt():
     jmeno = input("Zadej jméno: ")
-    cislo = int(input("Zadej telefonní číslo: "))
+    cislo = input("Zadej telefonní číslo: ")
     # Použití funkce len() pro výpočet délky tel. čísla
     cislo_delka = len(cislo)
     if cislo_delka >= 9:
