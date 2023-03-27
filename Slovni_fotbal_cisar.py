@@ -56,7 +56,7 @@ prvni_slovo = True
 
 while True:
     # hráč 1 zadá slovo
-    slovo_hrace_1 = input("Hráč 1 zadej slovo (jen malá písmena): ")
+    slovo_hrace_1 = input("Hráč 1 zadej slovo (jen malá písmena): ").lower()
     if not slovo_hrace_1:
         print(BLUE + "Chyba: Nezadal jsi žádné slovo." + RESET)
         continue
@@ -69,7 +69,7 @@ while True:
         break
 
     # hráč 2 zadá slovo
-    slovo_hrace_2 = input("Hráč 2 zadej slovo (jen malá písmena): ")
+    slovo_hrace_2 = input("Hráč 2 zadej slovo (jen malá písmena): ").lower()
     if not slovo_hrace_2:
         print(BLUE + "Chyba: Nezadal jsi žádné slovo." + RESET)
         continue
