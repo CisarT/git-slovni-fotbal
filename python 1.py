@@ -1,11 +1,12 @@
+print("Dotazník")
 # Deklarování proměnných
-jmeno = "Jan"
-prijmeni = "Novák"
-vek = 25
+jmeno = input("Zadej jmeno: ")
+prijmeni = input("Zadej příjmení: ")
+vek = int(input("Zadej věk: "))
 cislo_oblibeneho_ctverce = 3
 
 # Vytvoření pole (tuple)
-rodne_cislo = (850101/1234, 900301/5678, 920201/4321)
+rodne_cislo = input("Zadej rodne číslo: ")
 
 # Vytvoření listu s čísly
 cisla = [1, 2, 3, 4, 5]
@@ -26,4 +27,7 @@ for cislo in cisla:
 # For cyklus pro vypsání informací o osobě ze slovníku
 for klic, hodnota in osoba.items():
   print(klic + ": " + str(hodnota))
-,
+
+# Použití funkce len() pro výpočet délky řetězce
+delka_jmena = len(jmeno)
+print("Počet písmen ve jméně je", delka_jmena)
