@@ -55,7 +55,7 @@ print("Startovací náhodné slovo je: ", aktualni_slovo)
 prvni_slovo = True
 
 while True:
-    # hráč 1 zadá slovo
+    # hráč 1 zadá slovo (uprava s převodem inputu na mala pismena)
     slovo_hrace_1 = input("Hráč 1 zadej slovo (jen malá písmena): ").lower()
     if not slovo_hrace_1:
         print(BLUE + "Chyba: Nezadal jsi žádné slovo." + RESET)
@@ -68,7 +68,7 @@ while True:
         print(YEL + "Hráč 1 odpověděl špatně. Hra končí. Vyhrál hráč 2." + RESET)
         break
 
-    # hráč 2 zadá slovo
+    # hráč 2 zadá slovo (uprava s převodem inputu na mala pismena)
     slovo_hrace_2 = input("Hráč 2 zadej slovo (jen malá písmena): ").lower()
     if not slovo_hrace_2:
         print(BLUE + "Chyba: Nezadal jsi žádné slovo." + RESET)
