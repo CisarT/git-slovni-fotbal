@@ -1,4 +1,18 @@
-import os.path
+import os.path #importovaná knihovna vnitřní(build-in)
+
+#pro instalaci knihovny mimo základ pythonu použiji pip a to příkaz pro instalaci ascii generátoru na převod jpg obrázku na ascii art => pip install ascii_art
+#poté pouziji kod :
+
+#from ascii_art import ascii_art
+
+# Načtení obrázku
+#image = ascii_art.load_image("sluchátko.jpg")
+
+# Převod obrázku na ASCII art
+#asciiObr = ascii_art.convert_image(image)
+
+# Vypsání ASCII artu
+#print(asciiObr)
 
 seznam = {}
 
