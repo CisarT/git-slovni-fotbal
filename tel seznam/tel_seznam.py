@@ -64,7 +64,7 @@ while True:
     print(YEL + " 3 " + RESET + "- Najít kontakt")
     print(YEL + " 4 " + RESET + "- Konec programu")
 
-    volba = input(BLUE + "Zadej číslo volby: " + RESET)
+    volba = input(BLUE + "\nZadej číslo volby: " + RESET)
 
     if volba == "1":
         vypis_seznam()
@@ -73,6 +73,7 @@ while True:
     elif volba == "3":
         najdi_kontakt()
     elif volba == "4":
+        print(GREEN + "\nNaschledanou ........" + RESET)
         break
     else:
         print("Neplatná volba.")
